@@ -30,6 +30,8 @@ h1 {
 
 img {
 	border-radius: 50%;
+	width: 128px;
+	height: 128px;
 }
 
 @media screen and (min-width:540px) {
@@ -39,7 +41,7 @@ img {
 		justify-content: space-between;
 	}
 	.karta {
-		flex-basis: calc((100% - 20px) / 2);
+		flex-basis: calc((100% - 40px) / 2);
 		display: flex;
 	}
 	.text {
@@ -48,10 +50,12 @@ img {
 	}
 }
 
-@media screen and (min-width:940px) {
+@media screen and (min-width:960px) {
 	.karta {
-		flex-basis: calc((100% - 30px) / 4);
+		flex-basis: calc((100% - 80px) / 4);
 		display: block;
+	}
+	.text {
 		text-align: center;
 	}
 }
